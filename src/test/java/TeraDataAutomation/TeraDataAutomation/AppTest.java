@@ -34,7 +34,7 @@ public class AppTest {
 
 		WebElement TB_Password = driver.findElement(By
 			.xpath(".//input[@name='password']"));
-		TB_Password.sendKeys("adm");
+		TB_Password.sendKeys("admin");
 
 		// Click on login button
 
